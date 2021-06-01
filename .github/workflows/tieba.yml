@@ -3,7 +3,8 @@
 name: Start
 
 on:
-   push:
+   watch:
+    types: started
    gollum:
    schedule:
        - cron: '30 22 * * *'
