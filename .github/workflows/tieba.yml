@@ -7,7 +7,7 @@ on:
     types: started
    gollum:
    schedule:
-       - cron: '30 16 * * *'
+       - cron: '26 16,22 * * *'
 
 jobs:
   TiebaSignIn:
