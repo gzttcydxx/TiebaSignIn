@@ -3,9 +3,7 @@
 name: Start
 
 on:
-   watch:
-    types: started
-   gollum:
+   workflow_dispatch:
    schedule:
        - cron: '26 16,22 * * *'
 
